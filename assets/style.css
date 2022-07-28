@@ -11,6 +11,7 @@ ROOT
   --section-heading-font-color: #1d1d1d;
   --title-font-color: #4a4a4a;
   --body-font-color: #777777;
+  --background-color:#289BDE;
 }
 * {
   font-family: "Poppins", sans-serif !important;
@@ -26,9 +27,9 @@ ROOT
   color: #fff;
   background: var(--primaryColor);
 }
-.btn-theme{outline-color: var(--primaryColor); border-radius: 5px;}
+.btn-theme{outline-color: var(--primaryColor); border-radius: 5px; background-color: var(--primaryColor); border-radius: 5px;}
 .btn-theme:hover{background: var(--primaryColor);}
-
+.background-theme-color{background-color: var(--primaryColor);}
 
 /*----------------------
 HEADER 
@@ -45,7 +46,7 @@ Carousel
 HEADER 
 -----------------------*/
 
-
+ 
 
 /*----------------------
 HEADER 
