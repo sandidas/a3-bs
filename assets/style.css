@@ -1,12 +1,73 @@
+/**
+ * Author: Sandipan Das
+ * Text Domain: sandipandas.dev
+ */
+/*------------------------
+ROOT
+------------------------*/
+:root {
+  --primaryColor: #289bde;
+  --primaryHoverColor: #1092de;
+  --section-heading-font-color: #1d1d1d;
+  --title-font-color: #4a4a4a;
+  --body-font-color: #777777;
+}
 * {
-    font-family: 'Poppins', sans-serif!important;
-  }
+  font-family: "Poppins", sans-serif !important;
+  color: var(--body-font-color);
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: var(--primaryColor);
+}
+
+::selection {
+  color: #fff;
+  background: var(--primaryColor);
+}
+.btn-theme{outline-color: var(--primaryColor); border-radius: 5px;}
+.btn-theme:hover{background: var(--primaryColor);}
+
+
+/*----------------------
+HEADER 
+-----------------------*/
+.header{padding: 20px 0;}
+
+/*----------------------
+Carousel 
+-----------------------*/
+.carousel-caption{
+bottom: 15.25rem;
+}
+
+
+/*----------------------
+HEADER 
+-----------------------*/
 
 
 
+/*----------------------
+HEADER 
+-----------------------*/
 
 
-  /*
+
+/*----------------------
+HEADER 
+-----------------------*/
+
+
+
+/*----------------------
+HEADER 
+-----------------------*/
+
+
+
+/*
   // CHANGE ALL FONT FAMILY
   h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
