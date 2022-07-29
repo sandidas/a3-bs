@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Premium courses for the future web developers.</title>
-
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,11 +19,12 @@
   </head>
   <body>
     <!-- HEADER AREA  -->
-    <div class="container header">
+    <div class="container header py-0 py-md-4">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand fw-bold flex-md-grow-1" href="#">DEV COURSES</a>
-
-        <a href="#" class="btn btn-lg btn-outline-primary d-none d-md-block d-lg-none">Register</a>
+        <!-- button for mid and sm device  -->
+        <a href="#" class="btn btn-lg btn-outline-primary btn-theme-outline d-none d-md-block d-lg-none me-2">Register</a>
+        <!--# button for mid and sm device  -->
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
           </ul>
 
-          <a href="#" class="btn btn-lg btn-outline-primary d-none d-md-none d-lg-block">Register</a>
+          <a href="#" class="btn btn-lg btn-outline-primary btn-theme-outline d-none d-md-none d-lg-block">Register</a>
         </div>
       </nav>
     </div>
@@ -70,7 +70,7 @@
             <div class="carousel-caption d-md-block px-lg-5">
               <h2 class="text-light fw-bold fs-1">Open New Doors</h2>
               <p class="text-light">Choose from over 4,000 courses in topics like business analytics, graphic design, Python, and more.</p>
-              <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+              <a href="#" class="btn btn-primary btn-lg btn-theme">Get Started</a>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 50$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 40$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 60$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 30$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -208,7 +208,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 20$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -232,7 +232,7 @@
 
                   <div class="footerCta d-flex justify-content-between">
                     <h5 class="text-primary fs-6">Price : 40$</h5>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Order Now</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm btn-theme-outline">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -312,8 +312,8 @@
           <h2 class="text-light h2 fw-semibold">Work with us</h2>
           <p class="text-light">At Udemy, we’re all learners and instructors. We live out our values every day to create a culture that is diverse, inclusive, and committed to helping employees thrive.</p>
         </div>
-        <div class="col-12 col-lg-6 text-center d-flex flex-row text-lg-start align-items-center justify-content-center">
-          <a href="#" class="btn btn-light btn-lg">Register Now</a>
+        <div class="col-12 col-lg-6 text-center d-flex flex-row text-lg-start align-items-center justify-content-center justify-content-md-end">
+          <a href="#" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
         </div>
       </div>
       <!-- # seciton title  -->
@@ -414,9 +414,15 @@
         <div class="row">
           <blockquote class="col-12 col-md-6">
             <div class="p-4 shadow-sm">
-              <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-between align-items-center">
                 <span><img src="assets/images/blockquote.png" class="w-75 py-3" alt="" /></span>
-                <span><img src="assets/images/Rating.png" class="w-75 py-3" alt="" /></span>
+                <span>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-regular fa-star text-warning"></i>
+                </span>
               </div>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
               <div class="d-flex gap-3">
@@ -431,10 +437,14 @@
           <!-- testimonial 2 -->
           <blockquote class="col-12 col-md-6">
             <div class="p-4 shadow-sm">
-              <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-between align-items-center">
                 <span><img src="assets/images/blockquote.png" class="w-75 py-3" alt="" /></span>
                 <span>
-                  <img src="assets/images/Rating.png" class="w-75 py-3" alt="" />
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                  <i class="fa-regular fa-star text-warning"></i>
                 </span>
               </div>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
@@ -516,7 +526,7 @@
     <!-- # FAQ  -->
 
     <!-- COMPANIES  -->
-    <section class="container py-5">
+    <section class="container py-5 d-block d-md-none">
       <!-- seciton title  -->
       <div class="row my-5">
         <div class="offset-md-2 col-md-8 col-12 text-center">
@@ -586,6 +596,38 @@
       </section>
     </footer>
     <!-- # FOOTER  -->
+
+    <!-- MODEAL  -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <form>
+          <div class="modal-content p-4">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Register Now</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- # MODEAL  -->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

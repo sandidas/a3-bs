@@ -36,7 +36,9 @@ button, input, optgroup, select, textarea {
   color: var(--body-font-color);
 }
 
-
+/*--------------------
+---- Selection ------
+--------------------*/
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -48,45 +50,23 @@ button, input, optgroup, select, textarea {
   color: #fff;
   background: var(--primaryColor);
 }
+/*--------------------
+---- Theme Button ----
+--------------------*/
+.btn-theme-outline{outline-color: var(--primaryColor); border-color: var(--primaryColor); }
 .btn-theme{outline-color: var(--primaryColor); border-radius: 5px; background-color: var(--primaryColor); border-radius: 5px;}
-.btn-theme:hover{background: var(--primaryColor);}
+.btn-theme-outline:hover, .btn-theme:hover{background: var(--primaryHoverColor);}
 .background-theme-color{background-color: var(--primaryColor);}
 
-/*----------------------
-HEADER 
------------------------*/
-
 
 /*----------------------
-Carousel 
+Social 
 -----------------------*/
  
 .socials-grid ul li a {font-size: 15px; color: var(--primaryColor); }
 /* transition: property time effect */
 .socials-grid ul li a {padding: 5px 8px;  background-color:#34373a;}
 .socials-grid ul li a:hover{background-color: var(--primaryHoverColor);}
-/*----------------------
-HEADER 
------------------------*/
-
- 
-
-/*----------------------
-HEADER 
------------------------*/
-
-
-
-/*----------------------
-HEADER 
------------------------*/
-
-
-
-/*----------------------
-HEADER 
------------------------*/
-
 
 
 /*
